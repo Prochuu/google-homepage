@@ -5,17 +5,85 @@
     <meta charset="utf-8">
     <title>Google.com</title>
 <style>
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+    A {
+        text-decoration: none;
+    }
+    .top-left-corner
+    {
+       float: left;
+        margin-top: 25px;
+        margin-left: 20px;   
+       color: black;
+        transform: scale(0.9);
+        opacity: 65%;
+    }
+    .top-left-corner:hover
+    {
+     text-decoration: underline;
+     
+    }
+   
+    .top-right-corner
+    {
+     float:right;
+     transform: scale(0.9);
+     margin-top: 25px;
+     margin-right: 20px;
+     color: black; 
+     opacity: 65%;  
+    }
+    .top-right-corner:hover
+    {
+     text-decoration: underline;
+    }
     
+    .img
+    {
+        float: center;
+        padding-top: 170px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     
+    }
     
     .searchbar
     {
+     
+    padding: 15px;
+    width: 35%;
     border-style: solid;
     border-color: black;
-    border-width: 1px;
+   border-width: thin;
     border-radius: 15px;
-    text-align: center;
-}  
+     margin-left: auto;
+     margin-right: auto;
+    display: block;
+      }
+
+}
+button
+{
+  margin:auto;
+  display:block;
+}
+    .buttons
+    {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        display: block;
+    
+    }
+
+ 
+
 
 </style>
 
@@ -24,26 +92,32 @@
   
   
   <body>
-<div class="top-left-corner">
-    <p>about     store</p>
-</div>
-<div class="img">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>
-</div>
-<div class="searchbar">
-    <input type="text"><br>
-</div>
-<div class="buttons">
-  <button type="submit"><a href="#" target="_blank" > Search</button>
-    <button>I'm feeling lucky</button>
-</div>  
+
+    <a class="top-left-corner" href="#" target="_blank" >About</a> 
+    <a class="top-left-corner" href="#" target="_blank" >Store</a>
+    <a class="top-right-corner" href="#" target="_blank" >Gmail</a>
+    <a class="top-right-corner" href="#" target="_blank" >Images</a>
+    <a class="top-right-corner" class="sign-up" href="#" target="_blank" >Sign up</a>
+    
+    
+
+    <img class="img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google"><br>
+
+
+   
+
+    <input class="searchbar" type="text"/>
+    
+  <button class="buttons" type="submit" >  <a href="#" target="_blank" > Search</button>
+<button class="buttons" type="submit" >  <a href="#" target="_blank" >I'm feeling lucky</button>
+    
   
 </body>
 
 <footer>
-<p>
-    Advertising          Buisness    How Search works
-</p>
+    <a class="top-left-corner" href="#" target="_blank" >A</a> 
+    <a class="top-left-corner" href="#" target="_blank" >Store</a>
+    <a class="top-right-corner" href="#" target="_blank" >Gmail</a>
 
 </footer>
 </html>
